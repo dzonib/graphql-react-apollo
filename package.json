@@ -1,0 +1,29 @@
+{
+  "name": "graphql-react-apollo",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzonib/graphql-react-apollo.git"
+  },
+  "author": "kingkong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzonib/graphql-react-apollo/issues"
+  },
+  "homepage": "https://github.com/dzonib/graphql-react-apollo#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
